@@ -1,0 +1,53 @@
+# Ignore local Conda env folder
+dev-env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+*.out
+
+# Environment & runtime files
+.env
+.venv
+*.env
+*.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (if using)
+.vscode/
+
+# Byte-compiled / distribution files
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# Pip or Conda dependency files (optional, keep if you use them)
+# requirements.txt
+# environment.yml
+
+# Pytest / coverage / test cache
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+pytest_cache/
+*.cover
+
+# MyPy / Pylint / other linting tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# OS-specific
+Thumbs.db
+Desktop.ini
