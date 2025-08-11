@@ -31,6 +31,7 @@ from src.utils.orchestrator import run_sentinel_agent
 
 print("--- 6. Application imported successfully. ---")
 
+
 if __name__ == "__main__":
     print("--- 7. Handing control to the agent orchestrator... ---")
     run_sentinel_agent()
